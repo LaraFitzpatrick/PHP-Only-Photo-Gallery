@@ -5,14 +5,14 @@
 
 $content = array  // an array is a set of related information. Ex: multiple pieces of info about one photo
   (
-array  // the third array inside "content": child array #3
-(
-    'id'                => "2",
-    'metatitle'         => "Jordanian temple",
-    'metadescription'   => "Jordanian temple in Petra",
-    'h1title'           => "Jordanian temple in Petra",
-    'imagepath'         => "/img/sample2.jpg",
-    'caption'           => "The Treasury: a Jordanian temple located in Petra",
-    'copyright'         => "&copy Eric Girouard, 2013")
+    array (  // the second array inside "content": child array #2
+      'id'                => "2",
+      'metatitle'         => "Portrait on the Stairs",
+      'metadescription'   => "Portrait on the Steps of John Abbott College",
+      'h1title'           => "Portrait on the Steps of John Abbott College",
+      'imagepath'         => "/img/2.jpg",
+      'caption'           => "A girl seated on concrete stairs",
+      'copyright'         => "&copy Lara Fitzpatrick, 2021"),
+
 );
 ?>  
